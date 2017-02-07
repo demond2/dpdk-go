@@ -2,7 +2,7 @@ package dpdk
 
 /*
 #cgo CFLAGS: -m64 -pthread -O3 -march=native -I/usr/local/include/dpdk
-#cgo LDFLAGS: -L/usr/local/lib -L/usr/lib64 -ldpdk -lz -lrt -lm -ldl -lfuse
+#cgo LDFLAGS: -L/usr/local/lib -L/lib64 -L/usr/lib64 -ldpdk -lz -lrt -lm -ldl -lfuse
 
 extern void go_usage_hook(char *prg);
 
